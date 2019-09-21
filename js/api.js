@@ -27,6 +27,7 @@ itemListFinished.addEventListener('click', moveLeftFinished);
 
 // Filter event
 filter.addEventListener('keyup', filterItems);
+filter.addEventListener('change', filterItems);
 
 
 // Add itemWaiting

@@ -4,6 +4,7 @@ body{
 
 .container{
 	display: flex;
+	width:100%
 }
 
 #itemWaiting, #itemProgress, #itemFinished{
@@ -22,6 +23,12 @@ body{
 	background-color:#cec;
 }
 
-.list-group-item, #filter{
+.list-group-item, #filter, #login, #password{
 	background-color:#ffe;
+}
+
+#title-container, #formLogin{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
 }
