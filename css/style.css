@@ -2,6 +2,10 @@ body{
 	background-color:#ccb;
 }
 
+a{
+	color:#bbf;
+}
+
 .container{
 	display: flex;
 	width:100%
@@ -23,7 +27,7 @@ body{
 	background-color:#cec;
 }
 
-.list-group-item, #filter, #login, #password{
+.list-group-item, #filter, #login, #password, #confirm{
 	background-color:#ffe;
 }
 
