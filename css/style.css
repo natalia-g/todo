@@ -1,0 +1,27 @@
+body{
+	background-color:#ccb;
+}
+
+.container{
+	display: flex;
+}
+
+#itemWaiting, #itemProgress, #itemFinished{
+	width:73%;
+}
+
+#waiting{
+	background-color:#edb;
+}
+
+#progress{
+	background-color:#eec;
+}
+
+#finished{
+	background-color:#cec;
+}
+
+.list-group-item, #filter{
+	background-color:#ffe;
+}
