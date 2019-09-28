@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "https://mkolodziej19.github.io/ToDo/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalia-g/todo.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "coderscamp2019",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natalia-g/todo/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/natalia-g/todo#readme"
+}
