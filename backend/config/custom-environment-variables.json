@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "backend_jwtPrivateKey",
+  "mongoPassword": "backend_mongoPassword"
+}

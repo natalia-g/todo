@@ -1,3 +1,4 @@
+const config = require('config');
 const Joi = require ('joi');
 Joi.objectId = require('joi-objectid')(Joi);
 const mongoose = require('mongoose');
@@ -6,7 +7,18 @@ const auth = require('./routes/auth');
 const express = require ('express');
 const app = express();
 
-mongoose.connect('mongodb+srv://admin:admin123@cluster0-2mffx.mongodb.net/test?retryWrites=true&w=majority')
+if (!config.get('jwtPrivateKey')) {
+    console.error('FATAL ERROR: jwtPrivateKey is not defined');
+    process.exit(1);
+}  
+
+if (!config.get('mongoPassword')) {
+    console.error('FATAL ERROR: mongoPassword is not defined');
+    process.exit(1);
+}  
+
+mongoose.connect(`mongodb+srv://admin:${config.get('mongoPassword')}@cluster0-2mffx.mongodb.net/test?retryWrites=true&w=majority`)
+    // Hasło jest w zmiennej środowiskowej.
     .then(() => console.log('Connected to MongoDB...'))
     .catch(err => console.error('Could not connect to MongoDB...'));
 
