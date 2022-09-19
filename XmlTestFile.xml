@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<records>
+    <record>
+        <title>Tytuł obiektu</title>
+        <author>Autor obiektu</author>
+        <content>http://pliki.bs.katowice.pl/plik1.pdf</content>
+    </record>
+    <record>
+        <title>Tytuł obiektu 2</title>
+        <keyword>Słowo kluczowe| 1</keyword>
+        <keyword>Słowo kluczowe; 2</keyword>
+        <keyword>Słowo "kluczowe" 3</keyword>
+    </record>
+</records>
