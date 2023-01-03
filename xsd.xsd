@@ -8,6 +8,9 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="title" type="xs:string" />
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="keyword" type="xs:string" />
+              <xs:element minOccurs="0" name="author" type="xs:string" />
+              <xs:element minOccurs="0" name="content" type="xs:string" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
